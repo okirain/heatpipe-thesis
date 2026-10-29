@@ -1,0 +1,11 @@
+label,gravity_m_s2,tilt_deg,capillary_limit_W
+"Mikrogravitasi
+0",0.0,0.0,2064.881725981475
+"Akselerasi kecil
+0,01; 90°",0.01,90.0,2060.4181660639097
+"Akselerasi
+0,1; 90°",0.1,90.0,2020.246126805821
+"Akselerasi
+1; 90°",1.0,90.0,1618.5257342249347
+"Bumi
+9,81; 90°",9.81,90.0,0.0

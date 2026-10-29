@@ -1,0 +1,50 @@
+# PENDAHULUAN
+
+## Latar Belakang
+
+Reaktor antariksa memerlukan sistem pembuangan kalor yang andal, ringkas, dan mampu bekerja tanpa bergantung pada orientasi gravitasi. Pipa kalor memenuhi sebagian kebutuhan tersebut karena memanfaatkan penguapan dan kondensasi fluida kerja untuk memindahkan kalor dari evaporator ke kondenser. Tidak seperti loop berpompa, pipa kalor konvensional menggunakan struktur berpori untuk mengembalikan cairan secara pasif. Konsep ini telah berkembang dari penemuan awal menjadi salah satu pilihan arsitektur pembuangan kalor pada reaktor berpendingin pipa kalor [1, 8-10].
+
+Fluida alkali seperti natrium sesuai untuk pipa kalor temperatur tinggi karena memiliki kalor laten besar dan sifat transportasi yang mendukung operasi pada rentang temperatur reaktor. Natrium berubah menjadi uap pada evaporator, mengalir melalui ruang uap, berkondensasi pada kondenser, kemudian kembali sebagai cairan melalui sumbu kapiler. Proses tersebut merupakan aliran dua fase yang saling terkopel: laju penguapan menentukan laju aliran massa uap, sedangkan laju kondensasi menentukan jumlah cairan yang harus dikembalikan. Ketidakseimbangan antara tekanan pendorong kapiler dan rugi tekanan dapat menyebabkan kekurangan cairan serta pengeringan evaporator [3-6].
+
+Mikrogravitasi menghilangkan komponen tekanan hidrostatik yang biasa digunakan untuk membantu atau menghambat pengembalian cairan di Bumi. Akibatnya, desain tidak dapat mengandalkan gaya berat untuk mengatur distribusi cairan. Pada sisi lain, hilangnya tekanan hidrostatik juga dapat menguntungkan operasi pada orientasi yang di Bumi bersifat merugikan. Kajian parameter percepatan efektif diperlukan untuk membedakan pengaruh kapiler, viskositas, dan orientasi secara jelas.
+
+Pemodelan rinci berbasis dinamika fluida komputasional dapat menyelesaikan banyak fenomena, tetapi membutuhkan data material, kondisi batas, dan biaya komputasi yang besar. Untuk tugas akhir dan studi awal parameter, model tereduksi yang dapat dibaca, diuji, dan direproduksi memiliki nilai tersendiri. Model demikian tidak menggantikan CFD atau eksperimen, melainkan menyediakan hubungan fisis yang jelas antara masukan dan keluaran. Oleh karena itu, penelitian ini mengembangkan simulator Python untuk aliran dua fase tunak satu dimensi pada pipa kalor natrium, dengan penekanan pada neraca tekanan kapiler dan batas operasi dalam konteks mikrogravitasi.
+
+## Perumusan Masalah
+
+Permasalahan utama yang dibahas adalah bagaimana menentukan kemampuan transportasi kalor pipa kalor natrium tanpa menggunakan model dua fase yang terlalu kompleks, tetapi tetap mempertahankan hubungan fisis utama antara aliran uap dan aliran balik cairan. Pertanyaan penelitian dirumuskan sebagai berikut.
+
+1. Bagaimana merumuskan dan mengimplementasikan model tunak satu dimensi yang mengkopelkan neraca energi, aliran uap, aliran cairan Darcy, dan tekanan kapiler?
+2. Berapa rugi tekanan, kecepatan uap, bilangan Reynolds, bilangan Mach, dan batas transportasi kalor pada kasus acuan?
+3. Bagaimana temperatur operasi, ukuran pori, dan percepatan efektif memengaruhi batas operasi?
+4. Apakah implementasi numerik memenuhi pengujian konsistensi sifat fluida, neraca profil energi, kondisi batas kapiler, dan konvergensi grid?
+
+Pendekatan yang dipilih adalah model jaringan tereduksi dengan sifat fluida jenuh pada satu temperatur operasi. Panjang pipa dibagi menjadi evaporator, bagian adiabatik, dan kondenser. Rugi tekanan dihitung melalui integrasi aksial, sedangkan batas kapiler dicari dengan metode biseksi. Batas sonik, entrainment, dan pendidihan digunakan sebagai penyaringan tambahan.
+
+### Batasan Masalah
+
+Penelitian dibatasi oleh asumsi dan ruang lingkup berikut.
+
+1. Analisis hanya untuk satu pipa kalor natrium dan tidak menghitung neutronik, perpindahan kalor bahan bakar, atau konversi daya reaktor.
+2. Model bersifat tunak, satu dimensi aksial, dan menggunakan temperatur uap jenuh seragam.
+3. Evaporator dan kondenser menerima atau melepas fluks kalor merata; bagian adiabatik tidak kehilangan kalor.
+4. Sumbu kapiler homogen, jenuh sempurna, memiliki permeabilitas dan jari-jari pori efektif konstan, serta membasahi sempurna pada kasus acuan.
+5. Uap dimodelkan sebagai gas ideal dan cairan di dalam sumbu mengikuti hukum Darcy.
+6. Rugi tekanan uap menggunakan korelasi faktor gesek aliran internal; kompresibilitas hanya diperiksa melalui bilangan Mach, bukan diselesaikan dengan persamaan aliran kompresibel penuh.
+7. Batas sonik, entrainment, dan pendidihan merupakan model penyaringan rekayasa. Batas viskosit saat start-up beku, gas takterkondensasi, dan perubahan geometri tidak dimodelkan.
+8. Kasus acuan bersifat representatif untuk studi metode dan bukan spesifikasi desain reaktor tertentu.
+9. Verifikasi dilakukan terhadap sifat referensi dan konsistensi numerik; validasi terhadap data eksperimen belum dilakukan.
+
+## Tujuan Penelitian
+
+Tujuan penelitian ini adalah sebagai berikut.
+
+1. Mengembangkan simulator Python yang modular dan terdokumentasi untuk analisis aliran dua fase pipa kalor natrium.
+2. Menghitung profil aksial, neraca tekanan, dan batas kapiler, sonik, entrainment, serta pendidihan pada kasus acuan mikrogravitasi.
+3. Menganalisis pengaruh temperatur, beban kalor, jari-jari pori, dan percepatan efektif terhadap kemampuan transportasi kalor.
+4. Memverifikasi implementasi melalui pengujian otomatis dan studi konvergensi grid.
+5. Menyajikan kode, data, dan dokumen skripsi dalam struktur Quarto yang dapat direproduksi.
+
+## Manfaat Penelitian
+
+Penelitian ini diharapkan memberikan model pembelajaran yang menghubungkan persamaan pipa kalor dengan implementasi komputasi. Bagi penelitian lanjutan, kode dapat digunakan sebagai titik awal untuk studi sensitivitas sebelum pemodelan berdimensi lebih tinggi. Bagi pembaca, pemisahan yang tegas antara asumsi, verifikasi, dan validasi membantu mencegah penafsiran berlebihan terhadap hasil numerik. Dokumen Quarto juga memungkinkan persamaan, gambar, tabel, dan listing program dikelola dalam satu proyek yang dapat diperbarui.

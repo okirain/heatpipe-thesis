@@ -1,0 +1,23 @@
+warning: accessing absolute path `/usr/share/fonts/truetype/liberation2/LiberationSerif-Regular.ttf`; build may not be reproducible in other environments
+warning: accessing absolute path `/usr/share/fonts/truetype/liberation/LiberationSerif-BoldItalic.ttf`; build may not be reproducible in other environments
+warning: accessing absolute path `/usr/share/fonts/truetype/liberation2/LiberationSerif-Italic.ttf`; build may not be reproducible in other environments
+warning: accessing absolute path `/usr/share/fonts/truetype/liberation2/LiberationSerif-Bold.ttf`; build may not be reproducible in other environments
+warning: accessing absolute path `/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf`; build may not be reproducible in other environments
+warning: accessing absolute path `/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Oblique.ttf`; build may not be reproducible in other environments
+warning: accessing absolute path `/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf`; build may not be reproducible in other environments
+warning: accessing absolute path `/usr/share/fonts/truetype/dejavu/DejaVuSansMono-BoldOblique.ttf`; build may not be reproducible in other environments
+warning: lineno.sty:296: Invalid UTF-8 byte or sequence at line 296 replaced by U+FFFD.
+warning: accessing absolute path `/tmp/tex2pdf.-4903ac09b6acde89/figures/skema-model.png`; build may not be reproducible in other environments
+warning: accessing absolute path `/tmp/tex2pdf.-4903ac09b6acde89/figures/profil-aksial.png`; build may not be reproducible in other environments
+warning: accessing absolute path `/tmp/tex2pdf.-4903ac09b6acde89/figures/batas-operasi.png`; build may not be reproducible in other environments
+warning: accessing absolute path `/tmp/tex2pdf.-4903ac09b6acde89/figures/pengaruh-gravitasi.png`; build may not be reproducible in other environments
+warning: texput.tex:1723: Underfull \hbox (badness 1484) in paragraph at lines 1720--1723
+warning: texput.tex:2461: Underfull \hbox (badness 3189) in paragraph at lines 2459--2461
+warning: lineno.sty:296: Invalid UTF-8 byte or sequence at line 296 replaced by U+FFFD.
+warning: texput.tex:1723: Underfull \hbox (badness 1484) in paragraph at lines 1720--1723
+warning: texput.tex:2461: Underfull \hbox (badness 3189) in paragraph at lines 2459--2461
+warning: lineno.sty:296: Invalid UTF-8 byte or sequence at line 296 replaced by U+FFFD.
+warning: texput.tex:1723: Underfull \hbox (badness 1484) in paragraph at lines 1720--1723
+warning: texput.tex:2461: Underfull \hbox (badness 3189) in paragraph at lines 2459--2461
+warning: warnings were issued by the TeX engine; use --print and/or --keep-logs for details.
+warning: Object @page.i already defined.

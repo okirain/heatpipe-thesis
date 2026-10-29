@@ -1,0 +1,332 @@
+warning: accessing absolute path `/usr/share/fonts/truetype/liberation2/LiberationSerif-Regular.ttf`; build may not be reproducible in other environments
+warning: accessing absolute path `/usr/share/fonts/truetype/liberation/LiberationSerif-BoldItalic.ttf`; build may not be reproducible in other environments
+warning: accessing absolute path `/usr/share/fonts/truetype/liberation2/LiberationSerif-Italic.ttf`; build may not be reproducible in other environments
+warning: accessing absolute path `/usr/share/fonts/truetype/liberation2/LiberationSerif-Bold.ttf`; build may not be reproducible in other environments
+warning: accessing absolute path `/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf`; build may not be reproducible in other environments
+warning: accessing absolute path `/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Oblique.ttf`; build may not be reproducible in other environments
+warning: accessing absolute path `/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf`; build may not be reproducible in other environments
+warning: accessing absolute path `/usr/share/fonts/truetype/dejavu/DejaVuSansMono-BoldOblique.ttf`; build may not be reproducible in other environments
+warning: lineno.sty:296: Invalid UTF-8 byte or sequence at line 296 replaced by U+FFFD.
+warning: texput.tex:230: Underfull \hbox (badness 10000) in paragraph at lines 230--230
+warning: texput.tex:283: Underfull \hbox (badness 3557) in paragraph at lines 278--283
+warning: texput.tex:369: Underfull \hbox (badness 1902) in paragraph at lines 362--369
+warning: texput.tex:434: Underfull \hbox (badness 2951) in paragraph at lines 425--434
+warning: texput.tex:434: Underfull \hbox (badness 1320) in paragraph at lines 425--434
+warning: texput.tex:434: Underfull \hbox (badness 1297) in paragraph at lines 425--434
+warning: texput.tex:482: Underfull \hbox (badness 4673) in paragraph at lines 478--482
+warning: texput.tex:533: Underfull \hbox (badness 1168) in paragraph at lines 529--533
+warning: texput.tex:576: Underfull \hbox (badness 10000) in paragraph at lines 568--576
+warning: texput.tex:663: Underfull \hbox (badness 3590) in paragraph at lines 654--663
+warning: texput.tex:663: Underfull \hbox (badness 3168) in paragraph at lines 654--663
+warning: texput.tex:663: Underfull \hbox (badness 1412) in paragraph at lines 654--663
+warning: texput.tex:663: Underfull \hbox (badness 1142) in paragraph at lines 654--663
+warning: accessing absolute path `/tmp/tex2pdf.-ab8e24b99223fa12/figures/skema-model.png`; build may not be reproducible in other environments
+warning: texput.tex:976: Underfull \hbox (badness 2237) in paragraph at lines 968--976
+warning: accessing absolute path `/tmp/tex2pdf.-ab8e24b99223fa12/figures/profil-aksial.png`; build may not be reproducible in other environments
+warning: texput.tex:1318: Overfull \hbox (9.74013pt too wide) in paragraph at lines 1317--1318
+warning: accessing absolute path `/tmp/tex2pdf.-ab8e24b99223fa12/figures/batas-operasi.png`; build may not be reproducible in other environments
+warning: texput.tex:1356: Underfull \hbox (badness 2809) in paragraph at lines 1348--1356
+warning: accessing absolute path `/tmp/tex2pdf.-ab8e24b99223fa12/figures/pengaruh-gravitasi.png`; build may not be reproducible in other environments
+warning: texput.tex:1611: Underfull \hbox (badness 2302) in paragraph at lines 1606--1611
+warning: texput.tex:1622: Underfull \hbox (badness 2903) in paragraph at lines 1616--1622
+warning: texput.tex:1647: Underfull \hbox (badness 1509) in paragraph at lines 1639--1647
+warning: texput.tex:1709: Underfull \hbox (badness 1484) in paragraph at lines 1706--1709
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2447: Underfull \hbox (badness 3189) in paragraph at lines 2445--2447
+warning: texput.tex:2568: Underfull \vbox (badness 10000) detected at line 2568
+
+warning: texput.tex:2568: Underfull \vbox (badness 10000) detected at line 2568
+
+warning: texput.tex:2568: Underfull \vbox (badness 10000) detected at line 2568
+
+warning: texput.tex:2568: Underfull \vbox (badness 10000) detected at line 2568
+
+warning: texput.tex:2568: Underfull \vbox (badness 10000) detected at line 2568
+
+warning: lineno.sty:296: Invalid UTF-8 byte or sequence at line 296 replaced by U+FFFD.
+warning: texput.tex:230: Underfull \hbox (badness 10000) in paragraph at lines 230--230
+warning: texput.tex:283: Underfull \hbox (badness 3557) in paragraph at lines 278--283
+warning: texput.tex:369: Underfull \hbox (badness 1902) in paragraph at lines 362--369
+warning: texput.tex:434: Underfull \hbox (badness 2951) in paragraph at lines 425--434
+warning: texput.tex:434: Underfull \hbox (badness 1320) in paragraph at lines 425--434
+warning: texput.tex:434: Underfull \hbox (badness 1297) in paragraph at lines 425--434
+warning: texput.tex:482: Underfull \hbox (badness 4673) in paragraph at lines 478--482
+warning: texput.tex:533: Underfull \hbox (badness 1168) in paragraph at lines 529--533
+warning: texput.tex:576: Underfull \hbox (badness 10000) in paragraph at lines 568--576
+warning: texput.tex:663: Underfull \hbox (badness 3590) in paragraph at lines 654--663
+warning: texput.tex:663: Underfull \hbox (badness 3168) in paragraph at lines 654--663
+warning: texput.tex:663: Underfull \hbox (badness 1412) in paragraph at lines 654--663
+warning: texput.tex:663: Underfull \hbox (badness 1142) in paragraph at lines 654--663
+warning: texput.tex:976: Underfull \hbox (badness 2237) in paragraph at lines 968--976
+warning: texput.tex:1318: Overfull \hbox (9.74013pt too wide) in paragraph at lines 1317--1318
+warning: texput.tex:1356: Underfull \hbox (badness 2809) in paragraph at lines 1348--1356
+warning: texput.tex:1611: Underfull \hbox (badness 2302) in paragraph at lines 1606--1611
+warning: texput.tex:1622: Underfull \hbox (badness 2903) in paragraph at lines 1616--1622
+warning: texput.tex:1647: Underfull \hbox (badness 1509) in paragraph at lines 1639--1647
+warning: texput.tex:1709: Underfull \hbox (badness 1484) in paragraph at lines 1706--1709
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2447: Underfull \hbox (badness 3189) in paragraph at lines 2445--2447
+warning: texput.tex:2568: Underfull \vbox (badness 10000) detected at line 2568
+
+warning: texput.tex:2568: Underfull \vbox (badness 10000) detected at line 2568
+
+warning: texput.tex:2568: Underfull \vbox (badness 10000) detected at line 2568
+
+warning: texput.tex:2568: Underfull \vbox (badness 10000) detected at line 2568
+
+warning: texput.tex:2568: Underfull \vbox (badness 10000) detected at line 2568
+
+warning: lineno.sty:296: Invalid UTF-8 byte or sequence at line 296 replaced by U+FFFD.
+warning: texput.tex:230: Underfull \hbox (badness 10000) in paragraph at lines 230--230
+warning: texput.tex:283: Underfull \hbox (badness 3557) in paragraph at lines 278--283
+warning: texput.tex:369: Underfull \hbox (badness 1902) in paragraph at lines 362--369
+warning: texput.tex:434: Underfull \hbox (badness 2951) in paragraph at lines 425--434
+warning: texput.tex:434: Underfull \hbox (badness 1320) in paragraph at lines 425--434
+warning: texput.tex:434: Underfull \hbox (badness 1297) in paragraph at lines 425--434
+warning: texput.tex:482: Underfull \hbox (badness 4673) in paragraph at lines 478--482
+warning: texput.tex:533: Underfull \hbox (badness 1168) in paragraph at lines 529--533
+warning: texput.tex:576: Underfull \hbox (badness 10000) in paragraph at lines 568--576
+warning: texput.tex:663: Underfull \hbox (badness 3590) in paragraph at lines 654--663
+warning: texput.tex:663: Underfull \hbox (badness 3168) in paragraph at lines 654--663
+warning: texput.tex:663: Underfull \hbox (badness 1412) in paragraph at lines 654--663
+warning: texput.tex:663: Underfull \hbox (badness 1142) in paragraph at lines 654--663
+warning: texput.tex:976: Underfull \hbox (badness 2237) in paragraph at lines 968--976
+warning: texput.tex:1318: Overfull \hbox (9.74013pt too wide) in paragraph at lines 1317--1318
+warning: texput.tex:1356: Underfull \hbox (badness 2809) in paragraph at lines 1348--1356
+warning: texput.tex:1611: Underfull \hbox (badness 2302) in paragraph at lines 1606--1611
+warning: texput.tex:1622: Underfull \hbox (badness 2903) in paragraph at lines 1616--1622
+warning: texput.tex:1647: Underfull \hbox (badness 1509) in paragraph at lines 1639--1647
+warning: texput.tex:1709: Underfull \hbox (badness 1484) in paragraph at lines 1706--1709
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2436: Underfull \vbox (badness 10000) detected at line 2436
+
+warning: texput.tex:2447: Underfull \hbox (badness 3189) in paragraph at lines 2445--2447
+warning: texput.tex:2568: Underfull \vbox (badness 10000) detected at line 2568
+
+warning: texput.tex:2568: Underfull \vbox (badness 10000) detected at line 2568
+
+warning: texput.tex:2568: Underfull \vbox (badness 10000) detected at line 2568
+
+warning: texput.tex:2568: Underfull \vbox (badness 10000) detected at line 2568
+
+warning: texput.tex:2568: Underfull \vbox (badness 10000) detected at line 2568
+
+warning: warnings were issued by the TeX engine; use --print and/or --keep-logs for details.
+warning: Object @page.i already defined.

@@ -1,0 +1,31 @@
+# TINJAUAN PUSTAKA
+
+## Perkembangan Pipa Kalor
+
+Prinsip perangkat berkonduktansi termal tinggi yang menggunakan perubahan fasa diperkenalkan melalui karya awal Gaugler dan kemudian Grover. Publikasi Grover, Cotter, dan Erickson pada 1964 memperlihatkan struktur berkonduktansi termal sangat tinggi yang menjadi dasar pipa kalor modern [1]. Cotter selanjutnya merumuskan teori awal mengenai hubungan kapiler, aliran cairan, dan aliran uap [2]. Buku acuan Chi serta Faghri kemudian menyusun persamaan batas transportasi dan metode analisis yang banyak digunakan dalam perancangan pipa kalor [3, 4].
+
+Pipa kalor terdiri atas evaporator, bagian adiabatik, dan kondenser. Fluida menerima kalor laten pada evaporator dan melepaskannya pada kondenser. Perbedaan tekanan kapiler pada antarmuka cair–uap memungkinkan cairan kembali melalui struktur pori. Kemampuan operasi tanpa pompa ini menjadikan pipa kalor berbeda dari loop dua fase konvensional. Namun, kapasitasnya tidak tak terbatas. Tekanan kapiler harus mengatasi rugi tekanan cairan, rugi tekanan uap, dan tekanan akibat percepatan eksternal [4-6].
+
+Struktur sumbu dapat berupa anyaman kawat, serbuk tersinter, atau alur. Setiap struktur memiliki hubungan berbeda antara jari-jari pori, permeabilitas, porositas, dan konduktivitas efektif. Pori kecil meningkatkan tekanan kapiler, tetapi sering diikuti permeabilitas rendah. Oleh sebab itu, perubahan jari-jari pori tidak selalu dapat ditafsirkan terpisah dari permeabilitas pada desain nyata. Model penelitian ini memperlakukan keduanya sebagai parameter independen agar pengaruh masing-masing dapat dipelajari secara terkontrol.
+
+## Pipa Kalor untuk Reaktor Antariksa
+
+Reaktor berpendingin pipa kalor menggunakan sejumlah pipa yang tertanam atau terhubung secara termal dengan teras. Arsitektur ini dapat mengurangi kebutuhan pompa dan pipa utama, serta memberikan redundansi apabila kegagalan satu pipa tidak langsung menghentikan seluruh sistem. Yan dan rekan-rekannya membahas perkembangan mikroreaktor berpendingin pipa kalor beserta tantangan kegagalan berantai, integritas struktur, dan kualifikasi [8]. Tinjauan Wang, Ren, dan Li menunjukkan bahwa berbagai konsep menggunakan natrium, kalium, atau litium sesuai temperatur operasi dan arsitektur sistem [9].
+
+Dalam konteks antariksa, kondisi mikrogravitasi menghilangkan gaya apung dan tekanan hidrostatik berskala besar. Pipa kalor bersumbu tetap dapat bekerja karena pengembalian cairan didorong oleh kapilaritas. Sebaliknya, termosifon tanpa sumbu sangat bergantung pada gravitasi sehingga tidak menjadi pilihan utama dalam model ini. Keunggulan pasif tersebut tetap disertai tantangan start-up dari kondisi beku, keberadaan gas takterkondensasi, kompatibilitas material, dan pembuangan kalor dari kondenser ke radiator [8-10].
+
+Pemilihan natrium dalam penelitian ini didasarkan pada penggunaannya pada pipa kalor temperatur tinggi dan tersedianya korelasi sifat yang dievaluasi secara termodinamika. Fink dan Leibowitz menyajikan persamaan tekanan uap, entalpi penguapan, densitas, tegangan permukaan, viskositas, dan konduktivitas natrium [7]. Ketersediaan sumber tersebut memungkinkan implementasi diperiksa terhadap nilai tabel, bukan hanya terhadap keluaran program itu sendiri.
+
+## Pemodelan Aliran Dua Fase Pipa Kalor
+
+Model pipa kalor dapat dikelompokkan menjadi model analitik, model jaringan, dan model CFD. Model analitik menggunakan penyederhanaan untuk memperoleh batas transportasi dan neraca tekanan. Model jaringan membagi pipa menjadi elemen termal atau hidraulik yang saling berhubungan. Model CFD menyelesaikan medan kecepatan, tekanan, temperatur, dan dalam beberapa pendekatan antarmuka fasa. Ketiga tingkat model memiliki tujuan berbeda; model yang lebih rinci tidak selalu diperlukan untuk penyaringan parameter awal [4, 9].
+
+HTPIPE merupakan contoh program analisis pipa kalor tunak yang dikembangkan untuk membantu perhitungan kinerja dan batas operasi [11]. Perkembangan berikutnya mencakup model sistem reaktor seperti HEART yang menghubungkan analisis termal dan elektrik [12]. Pada tingkat eksperimen, Wahlquist dan rekan-rekannya menekankan pentingnya kualitas serta cakupan data untuk validasi pipa kalor pada aplikasi energi nuklir [13]. Literatur tersebut memperlihatkan bahwa kode tidak dapat dipisahkan dari pertanyaan mengenai kondisi batas, data material, dan validasi.
+
+Persamaan kapiler umum digunakan untuk menentukan apakah tekanan pendorong mencukupi. Batas lain muncul ketika kecepatan uap mendekati kondisi sonik, tetes cairan terbawa aliran uap, atau pendidihan di dalam sumbu menghalangi pengembalian cairan. Pada temperatur rendah, densitas uap yang kecil dapat menyebabkan batas sonik dan viskositas menjadi penting. Pada temperatur lebih tinggi, batas kapiler atau entrainment dapat menjadi lebih menonjol. Urutan batas bergantung pada geometri dan kondisi batas sehingga harus dihitung, bukan ditetapkan sebelumnya [3-6].
+
+## Posisi dan Kebaruan Penelitian
+
+Penelitian ini berada pada tingkat model analitik–numerik tereduksi. Kebaruannya tidak diklaim sebagai penemuan persamaan baru, melainkan pada integrasi paket tugas akhir yang menghubungkan empat komponen: korelasi sifat natrium yang dapat diuji, profil aksial uap–cair, pencarian batas kapiler melalui biseksi, serta keluaran Quarto yang dapat direproduksi. Parameter percepatan efektif digunakan untuk membandingkan mikrogravitasi dengan orientasi dan percepatan lain.
+
+Kebaruan pada tingkat tugas akhir juga terletak pada keterbukaan implementasi. Setiap rumus utama memiliki padanan fungsi, keluaran disimpan dalam format CSV dan JSON, dan pengujian otomatis disertakan. Dengan demikian, pembaca dapat mengubah parameter serta menilai konsekuensinya tanpa bergantung pada tabel statis. Model ini tetap merupakan penyederhanaan dan tidak dimaksudkan menggantikan kode tervalidasi untuk desain reaktor.

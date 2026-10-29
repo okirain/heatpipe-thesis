@@ -1,0 +1,66 @@
+{
+  "model": "Steady 1-D vapor/Darcy-wick capillary model",
+  "geometry": {
+    "evaporator_length": 0.25,
+    "adiabatic_length": 0.15,
+    "condenser_length": 0.6,
+    "vapor_diameter": 0.012,
+    "wick_thickness": 0.001,
+    "pore_radius": 7.5e-05,
+    "permeability": 5e-10,
+    "contact_angle_deg": 0.0,
+    "effective_wick_conductivity": 10.0,
+    "bubble_radius": 5e-06
+  },
+  "conditions": {
+    "heat_input": 800.0,
+    "sink_temperature": 700.0,
+    "condenser_resistance": 0.375,
+    "gravity": 0.0,
+    "tilt_deg": 0.0,
+    "cells": 400
+  },
+  "fluid": {
+    "temperature_K": 1000.0,
+    "saturation_pressure_Pa": 19945.868170580055,
+    "latent_heat_J_kg": 4024461.1816768455,
+    "liquid_density_kg_m3": 780.8180679605701,
+    "vapor_density_kg_m3": 0.05515099753268638,
+    "liquid_viscosity_Pa_s": 0.00018084784069012102,
+    "vapor_viscosity_Pa_s": 2.5298140442518276e-05,
+    "surface_tension_N_m": 0.1354549666878353,
+    "liquid_conductivity_W_mK": 54.244000000000014,
+    "sound_speed_m_s": 776.3796813414889
+  },
+  "results": {
+    "temperature_K": 1000.0,
+    "heat_input_W": 800.0,
+    "max_mass_flow_kg_s": 0.0001987843748232327,
+    "max_vapor_velocity_m_s": 31.869591644284267,
+    "max_reynolds": 833.7244110737564,
+    "max_mach": 0.04104897695057851,
+    "capillary_pressure_Pa": 3612.1324450089414,
+    "vapor_pressure_drop_Pa": 103.01973511691467,
+    "liquid_pressure_drop_Pa": 1296.4337636705889,
+    "gravity_pressure_drop_Pa": 0.0,
+    "capillary_margin_Pa": 2212.6789462214383,
+    "capillary_limit_W": 2064.881725981475,
+    "sonic_limit_W": 7155.526855882602,
+    "entrainment_limit_W": 3212.096909852754,
+    "boiling_limit_W": 24232.7971686672,
+    "governing_limit": "capillary",
+    "limit_utilization": 0.3874313913160066,
+    "is_capillary_feasible": true,
+    "is_within_all_screening_limits": true,
+    "is_incompressible_screening_ok": true,
+    "gravity_m_s2": 0.0,
+    "tilt_deg": 0.0,
+    "cells": 400
+  },
+  "derived_geometry": {
+    "total_length_m": 1.0,
+    "effective_length_m": 0.575,
+    "vapor_area_m2": 0.00011309733552923255,
+    "wick_area_m2": 4.0840704496667324e-05
+  }
+}

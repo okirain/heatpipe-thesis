@@ -1,0 +1,199 @@
+---
+title-meta: "Simulasi Aliran Dua Fase Pipa Kalor Natrium untuk Reaktor Antariksa pada Mikrogravitasi"
+author-meta: "Muhammad Naufal Tamimi"
+date-meta: "2026"
+---
+
+```{=latex}
+\frontmatter
+\begin{titlepage}
+\centering
+{\bfseries\Large SIMULASI ALIRAN DUA FASE PIPA KALOR NATRIUM\\UNTUK REAKTOR ANTARIKSA PADA MIKROGRAVITASI\par}
+\vspace{1.2cm}
+{\large SKRIPSI\par}
+\vspace{0.4cm}
+untuk memenuhi sebagian persyaratan\\
+untuk memperoleh derajat Sarjana\\
+Program Studi Teknik Nuklir\par
+\vspace{1.0cm}
+Diajukan oleh\par
+\vspace{0.3cm}
+{\bfseries MUHAMMAD NAUFAL TAMIMI\\20/456315/TK/50445\par}
+\vspace{1.0cm}
+Kepada\par
+\vspace{0.3cm}
+{\bfseries DEPARTEMEN TEKNIK NUKLIR DAN TEKNIK FISIKA\\FAKULTAS TEKNIK\\UNIVERSITAS GADJAH MADA\\YOGYAKARTA\\2026\par}
+\end{titlepage}
+
+\frontchapter{PERNYATAAN BEBAS PLAGIASI}
+Saya yang bertanda tangan di bawah ini:
+
+\noindent\begin{tabular}{@{}p{3.0cm}p{0.2cm}p{9.5cm}}
+Nama & : & Muhammad Naufal Tamimi\\
+NIM & : & 20/456315/TK/50445\\
+Tahun terdaftar & : & [tahun terdaftar]\\
+Program Studi & : & Teknik Nuklir\\
+Fakultas & : & Teknik\\
+\end{tabular}
+
+\noindent menyatakan bahwa dokumen ilmiah skripsi ini tidak terdapat bagian dari karya ilmiah lain yang telah diajukan untuk memperoleh gelar akademik di suatu lembaga Pendidikan Tinggi, dan juga tidak terdapat karya atau pendapat yang pernah ditulis atau diterbitkan oleh orang/lembaga lain, kecuali yang secara tertulis disitasi dalam dokumen ini dan disebutkan sumbernya secara lengkap dalam daftar pustaka.
+
+Dengan demikian saya menyatakan bahwa dokumen ilmiah ini bebas dari unsur-unsur plagiasi dan apabila dokumen ilmiah Skripsi ini di kemudian hari terbukti merupakan plagiasi dari hasil karya penulis lain dan/atau dengan sengaja mengajukan karya atau pendapat yang merupakan hasil karya penulis lain, maka penulis bersedia menerima sanksi akademik dan/atau sanksi hukum yang berlaku.
+
+\vspace{1cm}
+\begin{flushright}
+Yogyakarta, [tanggal-bulan-tahun]\\
+Materai dan tanda tangan\\[2cm]
+Muhammad Naufal Tamimi\\
+NIM. 20/456315/TK/50445
+\end{flushright}
+\newpage
+
+\frontchapter{HALAMAN PENGESAHAN}
+\begin{center}
+{\bfseries SKRIPSI\\[0.5cm]
+SIMULASI ALIRAN DUA FASE PIPA KALOR NATRIUM\\UNTUK REAKTOR ANTARIKSA PADA MIKROGRAVITASI}
+\end{center}
+\noindent\begin{tabular}{@{}p{3.8cm}p{0.2cm}p{8.5cm}}
+Nama Mahasiswa & : & Muhammad Naufal Tamimi\\
+Nomor Mahasiswa & : & 20/456315/TK/50445\\
+Pembimbing Utama & : & [nama dan gelar]\\
+Pembimbing Pendamping & : & [nama dan gelar]\\
+\end{tabular}
+
+Skripsi ini telah dipertahankan di depan Tim Penguji pada tanggal [tanggal ujian].
+
+\noindent\begin{tabular}{@{}p{3.8cm}p{0.2cm}p{8.5cm}}
+Ketua Sidang & : & [nama dan gelar]\\
+Penguji Utama & : & [nama dan gelar]\\
+Anggota Penguji & : & [nama dan gelar]\\
+\end{tabular}
+
+Skripsi ini telah diterima dan dinyatakan memenuhi syarat kelulusan pada tanggal [tanggal kelulusan].
+
+\vspace{1cm}
+\begin{center}
+Ketua Departemen Teknik Nuklir dan Teknik Fisika\\
+Fakultas Teknik UGM\\[2.5cm]
+[nama dan gelar]\\
+NIP. [nomor induk pegawai]
+\end{center}
+\newpage
+
+\frontchapter{HALAMAN PERSEMBAHAN}
+\vspace*{6cm}
+\begin{center}
+\emph{Karya ini dipersembahkan kepada keluarga dan para pendidik yang telah memberikan dukungan selama proses pembelajaran.}
+\end{center}
+\newpage
+
+\frontchapter{MOTTO}
+\vspace*{6cm}
+\begin{center}
+\emph{Model yang baik bukan hanya menghasilkan angka, tetapi juga menjelaskan asumsi dan batas keberlakuannya.}
+\end{center}
+\newpage
+```
+
+# KATA PENGANTAR {-}
+
+Skripsi ini menyajikan pengembangan simulator aliran dua fase pada pipa kalor natrium untuk kajian awal sistem pembuangan kalor reaktor antariksa pada kondisi mikrogravitasi. Pembahasan diarahkan pada hubungan antara transportasi kalor, aliran uap, aliran balik cairan di dalam sumbu kapiler, dan batas operasi pipa kalor. Program disusun secara modular agar persamaan, parameter masukan, dan hasil dapat diperiksa serta direproduksi.
+
+Penulis menyampaikan terima kasih kepada pembimbing, dosen, tenaga kependidikan, keluarga, dan rekan-rekan yang telah memberikan dukungan selama penyusunan tugas akhir. Saran dan koreksi diperlukan terutama untuk pengembangan model transien, perbaikan sifat fluida, dan validasi eksperimental.
+
+Yogyakarta, [tanggal] Oktober 2026
+
+Penulis
+
+```{=latex}
+\newpage
+\tableofcontents
+\newpage
+\listoftables
+\newpage
+\listoffigures
+\newpage
+```
+
+# DAFTAR LAMBANG DAN SINGKATAN {-}
+
+**Lambang Romawi**
+
+| Lambang | Kuantitas | Satuan |
+|:-------:|:----------|:------:|
+| $A$ | Luas penampang | m² |
+| $D_v$ | Diameter ruang uap | m |
+| $f$ | Faktor gesek Darcy | – |
+| $g_{\mathrm{eff}}$ | Percepatan efektif | m/s² |
+| $h_{fg}$ | Kalor laten penguapan | J/kg |
+| $K$ | Permeabilitas sumbu kapiler | m² |
+| $L$ | Panjang pipa kalor | m |
+| $\dot m$ | Laju aliran massa | kg/s |
+| $P$ | Tekanan | Pa |
+| $Q$ | Laju transportasi kalor | W |
+| $r_c$ | Jari-jari pori efektif | m |
+| $R_c$ | Resistansi termal kondenser | K/W |
+| $T$ | Temperatur | K |
+| $u$ | Kecepatan uap | m/s |
+| $x$ | Koordinat aksial | m |
+
+**Lambang Yunani**
+
+| Lambang | Kuantitas | Satuan |
+|:-------:|:----------|:------:|
+| $\theta$ | Sudut kontak atau kemiringan, sesuai konteks | ° |
+| $\mu$ | Viskositas dinamis | Pa·s |
+| $\rho$ | Densitas | kg/m³ |
+| $\sigma$ | Tegangan permukaan | N/m |
+
+**Subskrip dan Singkatan**
+
+| Lambang | Deskripsi |
+|:-------:|:----------|
+| $c$ | Kondenser atau kapiler, sesuai konteks |
+| $e$ | Evaporator |
+| $l$ | Fasa cair |
+| $v$ | Fasa uap |
+| CFD | *Computational Fluid Dynamics* |
+| HPCR | *Heat Pipe Cooled Reactor* |
+| NIM | Nomor Induk Mahasiswa |
+| UGM | Universitas Gadjah Mada |
+
+# INTISARI {-}
+
+Pipa kalor berpotensi digunakan pada reaktor antariksa karena mampu memindahkan kalor tanpa pompa. Pada mikrogravitasi, penggerak utama sirkulasi adalah tekanan kapiler sehingga neraca tekanan uap, cairan, dan gaya kapiler perlu dianalisis. Penelitian ini bertujuan mengembangkan simulator Python yang transparan untuk menghitung aliran dua fase tunak satu dimensi dan batas transportasi kalor pipa kalor natrium.
+
+Model menggabungkan neraca energi, aliran uap aksial, aliran Darcy pada sumbu kapiler, dan tekanan kapiler. Sifat natrium dihitung dengan korelasi Fink dan Leibowitz. Kasus acuan menggunakan panjang 1,00 m, diameter ruang uap 12 mm, beban 800 W, serta temperatur operasi 1000 K. Penyelesaian numerik menggunakan diskretisasi aksial, integrasi trapesium, dan biseksi.
+
+Hasil kasus acuan memberikan batas kapiler 2064,88 W, rugi tekanan uap 103,02 Pa, rugi tekanan cairan 1296,43 Pa, dan margin kapiler 2212,68 Pa. Batas sonik, entrainment, dan pendidihan masing-masing adalah 7155,53 W, 3212,10 W, dan 24.232,80 W. Kajian menunjukkan perpindahan batas pengatur dari sonik pada temperatur rendah ke kapiler pada temperatur lebih tinggi. Model terverifikasi melalui sepuluh pengujian, tetapi masih memerlukan validasi eksperimen.
+
+**Kata kunci:** pipa kalor, natrium, aliran dua fase, mikrogravitasi, reaktor antariksa.
+
+# ABSTRACT {-}
+
+Heat pipes can support space-reactor heat removal without mechanical pumps. Under microgravity, circulation is driven primarily by capillary pressure; therefore, the vapor, liquid, and capillary pressure balance must be evaluated. This thesis develops a transparent Python simulator for steady one-dimensional two-phase flow and heat-transport limits in a sodium heat pipe.
+
+The model couples an energy balance, axial vapor flow, Darcy liquid return through the wick, and capillary pressure. Sodium properties are evaluated using Fink and Leibowitz correlations. The reference case has a length of 1.00 m, a 12 mm vapor-core diameter, an 800 W heat load, and a 1000 K operating temperature. Axial discretization, trapezoidal integration, and bisection are used.
+
+The reference calculation gives a capillary limit of 2064.88 W, vapor and liquid pressure drops of 103.02 Pa and 1296.43 Pa, and a capillary margin of 2212.68 Pa. The sonic, entrainment, and boiling screening limits are 7155.53 W, 3212.10 W, and 24,232.80 W, respectively. The operating map shifts from sonic limitation at low temperature to capillary limitation at higher temperature. Ten verification tests pass; experimental validation remains necessary.
+
+**Keywords:** heat pipe, sodium, two-phase flow, microgravity, space reactor.
+
+```{=latex}
+\mainmatter
+```
+
+{{< include chapters/01-pendahuluan.qmd >}}
+{{< include chapters/02-tinjauan-pustaka.qmd >}}
+{{< include chapters/03-dasar-teori.qmd >}}
+{{< include chapters/04-pelaksanaan.qmd >}}
+{{< include chapters/05-hasil-pembahasan.qmd >}}
+{{< include chapters/06-kesimpulan.qmd >}}
+{{< include chapters/07-daftar-pustaka.qmd >}}
+
+```{=latex}
+\appendix
+```
+
+{{< include appendices/lampiran-a.qmd >}}
+{{< include appendices/lampiran-b.qmd >}}

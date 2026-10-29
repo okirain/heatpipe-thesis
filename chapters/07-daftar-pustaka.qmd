@@ -1,0 +1,31 @@
+# DAFTAR PUSTAKA {-}
+
+[1] G. M. Grover, T. P. Cotter, dan G. F. Erickson. “Structures of Very High Thermal Conductance.” *Journal of Applied Physics*, vol. 35, no. 6, pp. 1990–1991, 1964. DOI: 10.1063/1.1713792.
+
+[2] T. P. Cotter. *Theory of Heat Pipes*. LA-3246-MS, Los Alamos Scientific Laboratory, 1965.
+
+[3] S. W. Chi. *Heat Pipe Theory and Practice: A Sourcebook*. Washington, DC: Hemisphere Publishing Corporation, 1976.
+
+[4] A. Faghri. *Heat Pipe Science and Technology*. Washington, DC: Taylor & Francis, 1995.
+
+[5] G. P. Peterson. *An Introduction to Heat Pipes: Modeling, Testing, and Applications*. New York: John Wiley & Sons, 1994.
+
+[6] D. Reay, R. McGlen, dan P. Kew. *Heat Pipes: Theory, Design and Applications*, ed. ke-6. Oxford: Butterworth-Heinemann, 2014.
+
+[7] J. K. Fink dan L. Leibowitz. *Thermodynamic and Transport Properties of Sodium Liquid and Vapor*. ANL/RE-95/2, Argonne National Laboratory, 1995.
+
+[8] B. H. Yan, C. Wang, dan L. Li. “The Technology of Micro Heat Pipe Cooled Reactor: A Review.” *Annals of Nuclear Energy*, vol. 135, 106948, 2020. DOI: 10.1016/j.anucene.2019.106948.
+
+[9] E. Wang, T. Ren, dan L. Li. “Review of Reactor Conceptual Design and Thermal Hydraulic Characteristics for Heat Pipe in Nuclear Systems.” *Frontiers in Energy Research*, vol. 11, 1264168, 2023. DOI: 10.3389/fenrg.2023.1264168.
+
+[10] C. Wang, H. Sun, S. Tang, W. Tian, S. Qiu, dan G. Su. “Thermal-Hydraulic Analysis of a New Conceptual Heat Pipe Cooled Small Nuclear Reactor System.” *Nuclear Engineering and Technology*, vol. 52, no. 1, pp. 19–26, 2020. DOI: 10.1016/j.net.2019.06.021.
+
+[11] K. A. Woloshun, M. A. Merrigan, dan E. D. Best. *HTPIPE: A Steady-State Heat Pipe Analysis Program—A User’s Manual*. Los Alamos National Laboratory, 1988.
+
+[12] Z. Zhang, C. Wang, K. Guo, J. Huang, S. Qiu, dan G. Su. “HEART, a Specific Code for Thermal-Electrical Analysis of Heat Pipe Cooled Nuclear Reactor.” *International Journal of Thermal Sciences*, vol. 179, 107666, 2022. DOI: 10.1016/j.ijthermalsci.2022.107666.
+
+[13] S. Wahlquist dan kolaborator. “A Critical Review of Heat Pipe Experiments in Nuclear Energy Applications.” *Nuclear Science and Engineering*, vol. 197, no. 5, pp. 719–752, 2023.
+
+[14] C. R. Harris et al. “Array Programming with NumPy.” *Nature*, vol. 585, pp. 357–362, 2020. DOI: 10.1038/s41586-020-2649-2.
+
+[15] J. D. Hunter. “Matplotlib: A 2D Graphics Environment.” *Computing in Science & Engineering*, vol. 9, no. 3, pp. 90–95, 2007. DOI: 10.1109/MCSE.2007.55.

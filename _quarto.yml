@@ -1,0 +1,34 @@
+project:
+  type: default
+  output-dir: _book
+
+execute:
+  enabled: false
+  freeze: true
+
+format:
+  pdf:
+    pdf-engine: tectonic
+    documentclass: report
+    classoption:
+      - 12pt
+      - a4paper
+      - oneside
+    include-in-header: ugm-style.tex
+    keep-tex: true
+    number-sections: true
+    fig-align: center
+    tbl-cap-location: top
+    mainfont: Liberation Serif
+    monofont: DejaVu Sans Mono
+    fontsize: 12pt
+    geometry:
+      - left=4cm
+      - right=3cm
+      - top=3cm
+      - bottom=3cm
+    colorlinks: true
+    linkcolor: black
+    urlcolor: blue
+
+lang: id

@@ -1,0 +1,1002 @@
+{
+  "status": "success",
+  "data": {
+    "pdf": "/mnt/agents/output/heatpipe-thesis/Skripsi-Simulasi-Pipa-Kalor.pdf",
+    "outputDir": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa",
+    "pageCount": 66,
+    "contactSheet": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/contact-sheet.png",
+    "pages": [
+      {
+        "page": 1,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-001.png",
+        "inkRatio": 0.027050464361642608,
+        "contentBoundingBox": [
+          223,
+          142,
+          818,
+          893
+        ],
+        "contentWidthRatio": 0.5991943605236657,
+        "contentHeightRatio": 0.5349002849002849,
+        "contentAreaRatio": 0.3205092341547528,
+        "warnings": []
+      },
+      {
+        "page": 2,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-002.png",
+        "inkRatio": 0.04553742292916513,
+        "contentBoundingBox": [
+          188,
+          153,
+          854,
+          1312
+        ],
+        "contentWidthRatio": 0.6706948640483383,
+        "contentHeightRatio": 0.8254985754985755,
+        "contentAreaRatio": 0.5536576548661141,
+        "warnings": []
+      },
+      {
+        "page": 3,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-003.png",
+        "inkRatio": 0.031605856379270277,
+        "contentBoundingBox": [
+          188,
+          153,
+          852,
+          1312
+        ],
+        "contentWidthRatio": 0.6686807653575025,
+        "contentHeightRatio": 0.8254985754985755,
+        "contentAreaRatio": 0.5519950192659155,
+        "warnings": []
+      },
+      {
+        "page": 4,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-004.png",
+        "inkRatio": 0.006742353167327991,
+        "contentBoundingBox": [
+          224,
+          153,
+          815,
+          1312
+        ],
+        "contentWidthRatio": 0.595166163141994,
+        "contentHeightRatio": 0.8254985754985755,
+        "contentAreaRatio": 0.4913088198586688,
+        "warnings": []
+      },
+      {
+        "page": 5,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-005.png",
+        "inkRatio": 0.004971409553484075,
+        "contentBoundingBox": [
+          213,
+          153,
+          825,
+          1313
+        ],
+        "contentWidthRatio": 0.6163141993957704,
+        "contentHeightRatio": 0.8262108262108262,
+        "contentAreaRatio": 0.5092054638882434,
+        "warnings": []
+      },
+      {
+        "page": 6,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-006.png",
+        "inkRatio": 0.032262877177277986,
+        "contentBoundingBox": [
+          189,
+          153,
+          854,
+          1313
+        ],
+        "contentWidthRatio": 0.6696878147029205,
+        "contentHeightRatio": 0.8262108262108262,
+        "contentAreaRatio": 0.5533033226890226,
+        "warnings": []
+      },
+      {
+        "page": 7,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-007.png",
+        "inkRatio": 0.03791426022040322,
+        "contentBoundingBox": [
+          188,
+          153,
+          852,
+          1313
+        ],
+        "contentWidthRatio": 0.6686807653575025,
+        "contentHeightRatio": 0.8262108262108262,
+        "contentAreaRatio": 0.5524712876173098,
+        "warnings": []
+      },
+      {
+        "page": 8,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-008.png",
+        "inkRatio": 0.0339613763581538,
+        "contentBoundingBox": [
+          188,
+          148,
+          851,
+          1313
+        ],
+        "contentWidthRatio": 0.6676737160120846,
+        "contentHeightRatio": 0.8297720797720798,
+        "contentAreaRatio": 0.5540170079445004,
+        "warnings": []
+      },
+      {
+        "page": 9,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-009.png",
+        "inkRatio": 0.02359967062887506,
+        "contentBoundingBox": [
+          219,
+          153,
+          851,
+          1313
+        ],
+        "contentWidthRatio": 0.6364551863041289,
+        "contentHeightRatio": 0.8262108262108262,
+        "contentAreaRatio": 0.5258461653224996,
+        "warnings": []
+      },
+      {
+        "page": 10,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-010.png",
+        "inkRatio": 0.02636690451393372,
+        "contentBoundingBox": [
+          219,
+          153,
+          851,
+          1312
+        ],
+        "contentWidthRatio": 0.6364551863041289,
+        "contentHeightRatio": 0.8254985754985755,
+        "contentAreaRatio": 0.5253928496627389,
+        "warnings": []
+      },
+      {
+        "page": 11,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-011.png",
+        "inkRatio": 0.03601994588902947,
+        "contentBoundingBox": [
+          249,
+          153,
+          788,
+          1312
+        ],
+        "contentWidthRatio": 0.5427995971802618,
+        "contentHeightRatio": 0.8254985754985755,
+        "contentAreaRatio": 0.44808029425350676,
+        "warnings": []
+      },
+      {
+        "page": 12,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-012.png",
+        "inkRatio": 0.00822710540736724,
+        "contentBoundingBox": [
+          317,
+          141,
+          723,
+          1312
+        ],
+        "contentWidthRatio": 0.40886203423967776,
+        "contentHeightRatio": 0.834045584045584,
+        "contentAreaRatio": 0.34100957414149763,
+        "warnings": []
+      },
+      {
+        "page": 13,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-013.png",
+        "inkRatio": 0.05371216750874354,
+        "contentBoundingBox": [
+          188,
+          153,
+          854,
+          1312
+        ],
+        "contentWidthRatio": 0.6706948640483383,
+        "contentHeightRatio": 0.8254985754985755,
+        "contentAreaRatio": 0.5536576548661141,
+        "warnings": []
+      },
+      {
+        "page": 14,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-014.png",
+        "inkRatio": 0.049399930568107805,
+        "contentBoundingBox": [
+          188,
+          153,
+          854,
+          1312
+        ],
+        "contentWidthRatio": 0.6706948640483383,
+        "contentHeightRatio": 0.8254985754985755,
+        "contentAreaRatio": 0.5536576548661141,
+        "warnings": []
+      },
+      {
+        "page": 15,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-015.png",
+        "inkRatio": 0.09842329353910421,
+        "contentBoundingBox": [
+          188,
+          153,
+          854,
+          1312
+        ],
+        "contentWidthRatio": 0.6706948640483383,
+        "contentHeightRatio": 0.8254985754985755,
+        "contentAreaRatio": 0.5536576548661141,
+        "warnings": []
+      },
+      {
+        "page": 16,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-016.png",
+        "inkRatio": 0.08922787145345051,
+        "contentBoundingBox": [
+          188,
+          149,
+          854,
+          1312
+        ],
+        "contentWidthRatio": 0.6706948640483383,
+        "contentHeightRatio": 0.8283475783475783,
+        "contentAreaRatio": 0.5555684664445993,
+        "warnings": []
+      },
+      {
+        "page": 17,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-017.png",
+        "inkRatio": 0.05781567840983752,
+        "contentBoundingBox": [
+          188,
+          148,
+          854,
+          1313
+        ],
+        "contentWidthRatio": 0.6706948640483383,
+        "contentHeightRatio": 0.8297720797720798,
+        "contentAreaRatio": 0.556523872233842,
+        "warnings": []
+      },
+      {
+        "page": 18,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-018.png",
+        "inkRatio": 0.09857607239278941,
+        "contentBoundingBox": [
+          188,
+          153,
+          854,
+          1312
+        ],
+        "contentWidthRatio": 0.6706948640483383,
+        "contentHeightRatio": 0.8254985754985755,
+        "contentAreaRatio": 0.5536576548661141,
+        "warnings": []
+      },
+      {
+        "page": 19,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-019.png",
+        "inkRatio": 0.10269392872615431,
+        "contentBoundingBox": [
+          188,
+          148,
+          854,
+          1313
+        ],
+        "contentWidthRatio": 0.6706948640483383,
+        "contentHeightRatio": 0.8297720797720798,
+        "contentAreaRatio": 0.556523872233842,
+        "warnings": []
+      },
+      {
+        "page": 20,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-020.png",
+        "inkRatio": 0.038676002673988574,
+        "contentBoundingBox": [
+          189,
+          149,
+          854,
+          1313
+        ],
+        "contentWidthRatio": 0.6696878147029205,
+        "contentHeightRatio": 0.8290598290598291,
+        "contentAreaRatio": 0.5552112651810537,
+        "warnings": []
+      },
+      {
+        "page": 21,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-021.png",
+        "inkRatio": 0.07880591490863394,
+        "contentBoundingBox": [
+          189,
+          153,
+          854,
+          1312
+        ],
+        "contentWidthRatio": 0.6696878147029205,
+        "contentHeightRatio": 0.8254985754985755,
+        "contentAreaRatio": 0.5528263370660148,
+        "warnings": []
+      },
+      {
+        "page": 22,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-022.png",
+        "inkRatio": 0.041033674467712736,
+        "contentBoundingBox": [
+          189,
+          148,
+          854,
+          1313
+        ],
+        "contentWidthRatio": 0.6696878147029205,
+        "contentHeightRatio": 0.8297720797720798,
+        "contentAreaRatio": 0.5556882508040615,
+        "warnings": []
+      },
+      {
+        "page": 23,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-023.png",
+        "inkRatio": 0.04876084156043874,
+        "contentBoundingBox": [
+          189,
+          162,
+          854,
+          1313
+        ],
+        "contentWidthRatio": 0.6696878147029205,
+        "contentHeightRatio": 0.8198005698005698,
+        "contentAreaRatio": 0.5490104520819525,
+        "warnings": []
+      },
+      {
+        "page": 24,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-024.png",
+        "inkRatio": 0.05423721032985887,
+        "contentBoundingBox": [
+          188,
+          149,
+          854,
+          1313
+        ],
+        "contentWidthRatio": 0.6706948640483383,
+        "contentHeightRatio": 0.8290598290598291,
+        "contentAreaRatio": 0.5560461693392207,
+        "warnings": []
+      },
+      {
+        "page": 25,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-025.png",
+        "inkRatio": 0.06706919949618842,
+        "contentBoundingBox": [
+          188,
+          148,
+          854,
+          1312
+        ],
+        "contentWidthRatio": 0.6706948640483383,
+        "contentHeightRatio": 0.8290598290598291,
+        "contentAreaRatio": 0.5560461693392207,
+        "warnings": []
+      },
+      {
+        "page": 26,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-026.png",
+        "inkRatio": 0.007858427798004837,
+        "contentBoundingBox": [
+          189,
+          148,
+          854,
+          1312
+        ],
+        "contentWidthRatio": 0.6696878147029205,
+        "contentHeightRatio": 0.8290598290598291,
+        "contentAreaRatio": 0.5552112651810537,
+        "warnings": []
+      },
+      {
+        "page": 27,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-027.png",
+        "inkRatio": 0.06707422039748323,
+        "contentBoundingBox": [
+          188,
+          153,
+          854,
+          1313
+        ],
+        "contentWidthRatio": 0.6706948640483383,
+        "contentHeightRatio": 0.8262108262108262,
+        "contentAreaRatio": 0.5541353577607354,
+        "warnings": []
+      },
+      {
+        "page": 28,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-028.png",
+        "inkRatio": 0.07220342970594733,
+        "contentBoundingBox": [
+          189,
+          141,
+          854,
+          1312
+        ],
+        "contentWidthRatio": 0.6696878147029205,
+        "contentHeightRatio": 0.834045584045584,
+        "contentAreaRatio": 0.5585501645421082,
+        "warnings": []
+      },
+      {
+        "page": 29,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-029.png",
+        "inkRatio": 0.08413093936759597,
+        "contentBoundingBox": [
+          189,
+          148,
+          854,
+          1313
+        ],
+        "contentWidthRatio": 0.6696878147029205,
+        "contentHeightRatio": 0.8297720797720798,
+        "contentAreaRatio": 0.5556882508040615,
+        "warnings": []
+      },
+      {
+        "page": 30,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-030.png",
+        "inkRatio": 0.015503108655173107,
+        "contentBoundingBox": [
+          189,
+          141,
+          852,
+          1313
+        ],
+        "contentWidthRatio": 0.6676737160120846,
+        "contentHeightRatio": 0.8347578347578347,
+        "contentAreaRatio": 0.5573458655029652,
+        "warnings": []
+      },
+      {
+        "page": 31,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-031.png",
+        "inkRatio": 0.06005284857248604,
+        "contentBoundingBox": [
+          188,
+          153,
+          854,
+          1312
+        ],
+        "contentWidthRatio": 0.6706948640483383,
+        "contentHeightRatio": 0.8254985754985755,
+        "contentAreaRatio": 0.5536576548661141,
+        "warnings": []
+      },
+      {
+        "page": 32,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-032.png",
+        "inkRatio": 0.08406638492237686,
+        "contentBoundingBox": [
+          188,
+          141,
+          854,
+          1313
+        ],
+        "contentWidthRatio": 0.6706948640483383,
+        "contentHeightRatio": 0.8347578347578347,
+        "contentAreaRatio": 0.5598677924961913,
+        "warnings": []
+      },
+      {
+        "page": 33,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-033.png",
+        "inkRatio": 0.030729350467517638,
+        "contentBoundingBox": [
+          194,
+          336,
+          846,
+          1313
+        ],
+        "contentWidthRatio": 0.6565961732124874,
+        "contentHeightRatio": 0.6958689458689459,
+        "contentAreaRatio": 0.4569048869149574,
+        "warnings": []
+      },
+      {
+        "page": 34,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-034.png",
+        "inkRatio": 0.06175493411142958,
+        "contentBoundingBox": [
+          189,
+          148,
+          854,
+          1313
+        ],
+        "contentWidthRatio": 0.6696878147029205,
+        "contentHeightRatio": 0.8297720797720798,
+        "contentAreaRatio": 0.5556882508040615,
+        "warnings": []
+      },
+      {
+        "page": 35,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-035.png",
+        "inkRatio": 0.07787704816909248,
+        "contentBoundingBox": [
+          188,
+          148,
+          854,
+          1312
+        ],
+        "contentWidthRatio": 0.6706948640483383,
+        "contentHeightRatio": 0.8290598290598291,
+        "contentAreaRatio": 0.5560461693392207,
+        "warnings": []
+      },
+      {
+        "page": 36,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-036.png",
+        "inkRatio": 0.10896646898660997,
+        "contentBoundingBox": [
+          188,
+          149,
+          854,
+          1312
+        ],
+        "contentWidthRatio": 0.6706948640483383,
+        "contentHeightRatio": 0.8283475783475783,
+        "contentAreaRatio": 0.5555684664445993,
+        "warnings": []
+      },
+      {
+        "page": 37,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-037.png",
+        "inkRatio": 0.07522672955704174,
+        "contentBoundingBox": [
+          188,
+          148,
+          854,
+          1313
+        ],
+        "contentWidthRatio": 0.6706948640483383,
+        "contentHeightRatio": 0.8297720797720798,
+        "contentAreaRatio": 0.556523872233842,
+        "warnings": []
+      },
+      {
+        "page": 38,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-038.png",
+        "inkRatio": 0.05425801120665169,
+        "contentBoundingBox": [
+          188,
+          149,
+          854,
+          1312
+        ],
+        "contentWidthRatio": 0.6706948640483383,
+        "contentHeightRatio": 0.8283475783475783,
+        "contentAreaRatio": 0.5555684664445993,
+        "warnings": []
+      },
+      {
+        "page": 39,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-039.png",
+        "inkRatio": 0.08601521189638008,
+        "contentBoundingBox": [
+          188,
+          153,
+          854,
+          1313
+        ],
+        "contentWidthRatio": 0.6706948640483383,
+        "contentHeightRatio": 0.8262108262108262,
+        "contentAreaRatio": 0.5541353577607354,
+        "warnings": []
+      },
+      {
+        "page": 40,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-040.png",
+        "inkRatio": 0.024642583554970263,
+        "contentBoundingBox": [
+          189,
+          148,
+          854,
+          1313
+        ],
+        "contentWidthRatio": 0.6696878147029205,
+        "contentHeightRatio": 0.8297720797720798,
+        "contentAreaRatio": 0.5556882508040615,
+        "warnings": []
+      },
+      {
+        "page": 41,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-041.png",
+        "inkRatio": 0.08360302746002646,
+        "contentBoundingBox": [
+          187,
+          153,
+          854,
+          1312
+        ],
+        "contentWidthRatio": 0.6717019133937563,
+        "contentHeightRatio": 0.8254985754985755,
+        "contentAreaRatio": 0.5544889726662133,
+        "warnings": []
+      },
+      {
+        "page": 42,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-042.png",
+        "inkRatio": 0.010972103872405986,
+        "contentBoundingBox": [
+          187,
+          148,
+          854,
+          1313
+        ],
+        "contentWidthRatio": 0.6717019133937563,
+        "contentHeightRatio": 0.8297720797720798,
+        "contentAreaRatio": 0.5573594936636226,
+        "warnings": []
+      },
+      {
+        "page": 43,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-043.png",
+        "inkRatio": 0.041081731665820284,
+        "contentBoundingBox": [
+          188,
+          153,
+          964,
+          1313
+        ],
+        "contentWidthRatio": 0.7814702920443102,
+        "contentHeightRatio": 0.8262108262108262,
+        "contentAreaRatio": 0.6456592156491452,
+        "warnings": []
+      },
+      {
+        "page": 44,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-044.png",
+        "inkRatio": 0.038927765010343056,
+        "contentBoundingBox": [
+          189,
+          149,
+          983,
+          1313
+        ],
+        "contentWidthRatio": 0.7995971802618328,
+        "contentHeightRatio": 0.8290598290598291,
+        "contentAreaRatio": 0.6629139015845964,
+        "warnings": []
+      },
+      {
+        "page": 45,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-045.png",
+        "inkRatio": 0.03728879937339152,
+        "contentBoundingBox": [
+          229,
+          180,
+          932,
+          1313
+        ],
+        "contentWidthRatio": 0.7079556898288016,
+        "contentHeightRatio": 0.8069800569800569,
+        "contentAreaRatio": 0.5713061229174019,
+        "warnings": []
+      },
+      {
+        "page": 46,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-046.png",
+        "inkRatio": 0.03627386004022459,
+        "contentBoundingBox": [
+          189,
+          149,
+          993,
+          1313
+        ],
+        "contentWidthRatio": 0.8096676737160121,
+        "contentHeightRatio": 0.8290598290598291,
+        "contentAreaRatio": 0.6712629431662664,
+        "warnings": []
+      },
+      {
+        "page": 47,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-047.png",
+        "inkRatio": 0.03819040979161825,
+        "contentBoundingBox": [
+          229,
+          149,
+          993,
+          1313
+        ],
+        "contentWidthRatio": 0.7693856998992951,
+        "contentHeightRatio": 0.8290598290598291,
+        "contentAreaRatio": 0.6378667768395865,
+        "warnings": []
+      },
+      {
+        "page": 48,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-048.png",
+        "inkRatio": 0.036994000740224305,
+        "contentBoundingBox": [
+          189,
+          149,
+          993,
+          1313
+        ],
+        "contentWidthRatio": 0.8096676737160121,
+        "contentHeightRatio": 0.8290598290598291,
+        "contentAreaRatio": 0.6712629431662664,
+        "warnings": []
+      },
+      {
+        "page": 49,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-049.png",
+        "inkRatio": 0.034970577518412364,
+        "contentBoundingBox": [
+          189,
+          149,
+          993,
+          1313
+        ],
+        "contentWidthRatio": 0.8096676737160121,
+        "contentHeightRatio": 0.8290598290598291,
+        "contentAreaRatio": 0.6712629431662664,
+        "warnings": []
+      },
+      {
+        "page": 50,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-050.png",
+        "inkRatio": 0.04295524512040121,
+        "contentBoundingBox": [
+          189,
+          209,
+          993,
+          1313
+        ],
+        "contentWidthRatio": 0.8096676737160121,
+        "contentHeightRatio": 0.7863247863247863,
+        "contentAreaRatio": 0.6366617605288301,
+        "warnings": []
+      },
+      {
+        "page": 51,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-051.png",
+        "inkRatio": 0.04166917711731408,
+        "contentBoundingBox": [
+          229,
+          149,
+          993,
+          1313
+        ],
+        "contentWidthRatio": 0.7693856998992951,
+        "contentHeightRatio": 0.8290598290598291,
+        "contentAreaRatio": 0.6378667768395865,
+        "warnings": []
+      },
+      {
+        "page": 52,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-052.png",
+        "inkRatio": 0.0487995742275702,
+        "contentBoundingBox": [
+          230,
+          149,
+          985,
+          1313
+        ],
+        "contentWidthRatio": 0.7603222557905337,
+        "contentHeightRatio": 0.8290598290598291,
+        "contentAreaRatio": 0.6303526394160835,
+        "warnings": []
+      },
+      {
+        "page": 53,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-053.png",
+        "inkRatio": 0.041306954952473586,
+        "contentBoundingBox": [
+          189,
+          149,
+          971,
+          1313
+        ],
+        "contentWidthRatio": 0.7875125881168177,
+        "contentHeightRatio": 0.8290598290598291,
+        "contentAreaRatio": 0.6528950516865925,
+        "warnings": []
+      },
+      {
+        "page": 54,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-054.png",
+        "inkRatio": 0.03138708853713889,
+        "contentBoundingBox": [
+          189,
+          149,
+          993,
+          1313
+        ],
+        "contentWidthRatio": 0.8096676737160121,
+        "contentHeightRatio": 0.8290598290598291,
+        "contentAreaRatio": 0.6712629431662664,
+        "warnings": []
+      },
+      {
+        "page": 55,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-055.png",
+        "inkRatio": 0.0449872756015757,
+        "contentBoundingBox": [
+          189,
+          149,
+          985,
+          1312
+        ],
+        "contentWidthRatio": 0.8016112789526687,
+        "contentHeightRatio": 0.8283475783475783,
+        "contentAreaRatio": 0.6640127616965482,
+        "warnings": []
+      },
+      {
+        "page": 56,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-056.png",
+        "inkRatio": 0.04574901805516106,
+        "contentBoundingBox": [
+          189,
+          149,
+          993,
+          1312
+        ],
+        "contentWidthRatio": 0.8096676737160121,
+        "contentHeightRatio": 0.8283475783475783,
+        "contentAreaRatio": 0.6706862567889759,
+        "warnings": []
+      },
+      {
+        "page": 57,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-057.png",
+        "inkRatio": 0.05087464100555742,
+        "contentBoundingBox": [
+          189,
+          149,
+          993,
+          1313
+        ],
+        "contentWidthRatio": 0.8096676737160121,
+        "contentHeightRatio": 0.8290598290598291,
+        "contentAreaRatio": 0.6712629431662664,
+        "warnings": []
+      },
+      {
+        "page": 58,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-058.png",
+        "inkRatio": 0.05506494177189041,
+        "contentBoundingBox": [
+          189,
+          149,
+          993,
+          1312
+        ],
+        "contentWidthRatio": 0.8096676737160121,
+        "contentHeightRatio": 0.8283475783475783,
+        "contentAreaRatio": 0.6706862567889759,
+        "warnings": []
+      },
+      {
+        "page": 59,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-059.png",
+        "inkRatio": 0.044436411002372736,
+        "contentBoundingBox": [
+          189,
+          149,
+          891,
+          1313
+        ],
+        "contentWidthRatio": 0.7069486404833837,
+        "contentHeightRatio": 0.8290598290598291,
+        "contentAreaRatio": 0.5861027190332326,
+        "warnings": []
+      },
+      {
+        "page": 60,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-060.png",
+        "inkRatio": 0.0464239706435074,
+        "contentBoundingBox": [
+          229,
+          148,
+          972,
+          1313
+        ],
+        "contentWidthRatio": 0.7482376636455186,
+        "contentHeightRatio": 0.8297720797720798,
+        "contentAreaRatio": 0.6208667223269438,
+        "warnings": []
+      },
+      {
+        "page": 61,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-061.png",
+        "inkRatio": 0.04866185807776946,
+        "contentBoundingBox": [
+          229,
+          149,
+          993,
+          1312
+        ],
+        "contentWidthRatio": 0.7693856998992951,
+        "contentHeightRatio": 0.8283475783475783,
+        "contentAreaRatio": 0.6373187813268377,
+        "warnings": []
+      },
+      {
+        "page": 62,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-062.png",
+        "inkRatio": 0.01857948660566989,
+        "contentBoundingBox": [
+          189,
+          149,
+          993,
+          1313
+        ],
+        "contentWidthRatio": 0.8096676737160121,
+        "contentHeightRatio": 0.8290598290598291,
+        "contentAreaRatio": 0.6712629431662664,
+        "warnings": []
+      },
+      {
+        "page": 63,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-063.png",
+        "inkRatio": 0.038993753998789245,
+        "contentBoundingBox": [
+          189,
+          153,
+          912,
+          1313
+        ],
+        "contentWidthRatio": 0.7280966767371602,
+        "contentHeightRatio": 0.8262108262108262,
+        "contentAreaRatio": 0.6015613568483659,
+        "warnings": []
+      },
+      {
+        "page": 64,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-064.png",
+        "inkRatio": 0.060614472245892184,
+        "contentBoundingBox": [
+          190,
+          149,
+          991,
+          1313
+        ],
+        "contentWidthRatio": 0.8066465256797583,
+        "contentHeightRatio": 0.8290598290598291,
+        "contentAreaRatio": 0.6687582306917654,
+        "warnings": []
+      },
+      {
+        "page": 65,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-065.png",
+        "inkRatio": 0.052355089615915396,
+        "contentBoundingBox": [
+          229,
+          149,
+          993,
+          1313
+        ],
+        "contentWidthRatio": 0.7693856998992951,
+        "contentHeightRatio": 0.8290598290598291,
+        "contentAreaRatio": 0.6378667768395865,
+        "warnings": []
+      },
+      {
+        "page": 66,
+        "image": "/mnt/agents/output/heatpipe-thesis/.scratch/final-qa/page-066.png",
+        "inkRatio": 0.05624341903294572,
+        "contentBoundingBox": [
+          189,
+          149,
+          854,
+          1313
+        ],
+        "contentWidthRatio": 0.6696878147029205,
+        "contentHeightRatio": 0.8290598290598291,
+        "contentAreaRatio": 0.5552112651810537,
+        "warnings": []
+      }
+    ],
+    "warnings": []
+  }
+}
